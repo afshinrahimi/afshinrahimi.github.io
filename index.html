@@ -1,1 +1,92 @@
-Hello World!
+---
+layout: default
+title: Adam Lopez
+picture: nike
+news:
+  -
+    >
+      <a href="http://clsp.jhu.edu/people/nsaphra/">Naomi Saphra</a> 
+      released <a href="https://github.com/nsaphra/AMRICA">AMRICA</a>, a toolkit for visualizing 
+      <a href="http://amr.isi.edu/">abstract
+      meaning representations</a> (AMRs) and comparing them across languages.
+      If you are working with AMR, try it out! Naomi presented
+      <a href="http://speak.clsp.jhu.edu/uploads/publications/papers/1053_pdf.pdf">our demo</a> 
+      at <a href="http://naacl.org/naacl-hlt-2015/">NAACL 2015</a>.
+  -
+    >  
+      Hua He released <a href="http://hohocode.github.io/cgx/">CGX</a>, 
+      a fast grammar extractor for hierarchical 
+      phrase-based translation that runs on GPUs. Hua presented 
+      <a href="http://aclweb.org/anthology/Q/Q15/Q15-1007.pdf">our TACL paper</a> 
+      at <a href="http://naacl.org/naacl-hlt-2015/">NAACL 2015</a>.
+  -
+    >
+      In March 2015 I attended a <a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=15122">
+      Dagstuhl seminar on Formal Models of Graph Transformation in Natural Language Processing</a>.
+      Stay tuned for more!
+  -
+    >
+      In December 2014, the Linguistic Data Consortium released 
+      <a href="https://catalog.ldc.upenn.edu/LDC2014T23">a four-way parallel corpus</a> 
+      of speech, transcriptions, translation, and ASR lattices that I developed with colleagues at 
+      Johns Hopkins University.
+  -
+    >
+      I worked with an excellent team of researchers led by <a href="http://verbs.colorado.edu/~mpalmer/">Martha Palmer</a> on 
+      <a href="http://www.clsp.jhu.edu/workshops/archive/ws14-summer-workshop/groups/amr-mt/">Cross-lingual abstract meaning representations for machine translation</a> at the <a href="http://www.clsp.jhu.edu/workshops/archive/ws14-summer-workshop/">2014 Fred Jelinek memorial CLSP workshop</a> in Prague.
+      The team produced many interesting results. <a href="http://lectures.ms.mff.cuni.cz/view.php?rec=231">Here is a video</a> of our presentation
+      from the final day of the workshop. I am the first speaker, and my students Naomi and Adi also give presentations. Stay tuned for more!
+---
+<div class="page-header">
+  <div class="row">
+    <div class="col-sm-12">
+      <h3>Adam Lopez</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <address>
+        Reader<br/>
+        <a href="http://www.ilcc.inf.ed.ac.uk/">Institute for Language, Cognition and Computation</a><br/>
+        <a href="http://www.ed.ac.uk/schools-departments/informatics/">School of Informatics</a><br/>
+        <a href="http://www.ed.ac.uk/home">University of Edinburgh</a><br/>
+      </address>
+    </div>
+    <div class="col-sm-4">
+      <a href="mailto:alopez@inf.ed.ac.uk"><span class="glyphicon glyphicon-envelope"></span></a> Email<br/>
+      <a href="tel:+44-1316504430"><span class="glyphicon glyphicon-phone"></span>+44 131 650 4430</a><br/>
+      <a href="http://scholar.google.com/citations?user=u4sxKZwAAAAJ">
+        <img src="img/ico/gs.png" alt=""/>
+      </a> Google Scholar<br/>
+      <a href="http://github.com/alopez">
+        <img src="img/ico/github_icon.png" alt=""/>
+      </a> Github
+    </div>
+  </div>
+</div>
+
+<p>
+  Our society is globally connected, but language barriers prevent
+  deeper connections and mutual understanding. To break these barriers,
+  <a href="collaborators.html">my research group</a> works on multilingual
+  <a href="http://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a> (NLP)
+  systems that understand and generate human language. 
+  Progress in NLP requires advances in machine learning, computer science,
+  and linguistics. We are interested in many basic research problems in these fields. 
+</p>
+
+<h4>News</h4>
+<ul>
+{% for item in page.news %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+<h4>Selected Papers</h4>
+{% for post in site.papers %}
+  {% if post.selected %}
+    {% include paper.html paper=post %}
+  {% endif %}
+{% endfor %}
+
+
