@@ -31,6 +31,7 @@ papers:
 	benchmark datasets achieve state-of-the-art results,
 	and demonstrate the effectiveness of the
 	enhancements.
+
   - layout: paper
     paper-type: inproceedings
     selected: yes
@@ -62,4 +63,3 @@ papers:
 	where the user graph is not well connected.
 	We achieve state-of-the-art results on all three
 	datasets.
-

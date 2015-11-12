@@ -22,15 +22,16 @@ papers:
     code: https://github.com/afshinrahimi/textylon/
     abstract: > 
       Abstract We propose a label propagation approach to
-	geolocation prediction based on Modified Adsorption,
-	with two enhancements: (1) the removal
-	of “celebrity” nodes to increase location
-	homophily and boost tractability; and (2) the
-	incorporation of text-based geolocation priors
-	for test users. Experiments over three Twitter
-	benchmark datasets achieve state-of-the-art results,
-	and demonstrate the effectiveness of the
-	enhancements.
+      geolocation prediction based on Modified Adsorption,
+      with two enhancements: (1) the removal
+      of “celebrity” nodes to increase location
+      homophily and boost tractability; and (2) the
+      incorporation of text-based geolocation priors
+      for test users. Experiments over three Twitter
+      benchmark datasets achieve state-of-the-art results,
+      and demonstrate the effectiveness of the
+      enhancements.
+
   - layout: paper
     paper-type: inproceedings
     selected: yes
@@ -45,21 +46,20 @@ papers:
     code: https://github.com/afshinrahimi/textylon/
     abstract: > 
       Abstract Research on automatically geolocating social
-	media users has conventionally been based on
-	the text content of posts from a given user or
-	the social network of the user, with very little
-	crossover between the two, and no benchmarking
-	of the two approaches over comparable
-	datasets. We bring the two threads of research
-	together in first proposing a text-based
-	method based on adaptive grids, followed by a
-	hybrid network- and text-based method. Evaluating
-	over three Twitter datasets, we show
-	that the empirical difference between textand
-	network-based methods is not great, and
-	that hybridisation of the two is superior to
-	the component methods, especially in contexts
-	where the user graph is not well connected.
-	We achieve state-of-the-art results on all three
-	datasets.
-
+      media users has conventionally been based on
+      the text content of posts from a given user or
+      the social network of the user, with very little
+      crossover between the two, and no benchmarking
+      of the two approaches over comparable
+      datasets. We bring the two threads of research
+      together in first proposing a text-based
+      method based on adaptive grids, followed by a
+      hybrid network- and text-based method. Evaluating
+      over three Twitter datasets, we show
+      that the empirical difference between textand
+      network-based methods is not great, and
+      that hybridisation of the two is superior to
+      the component methods, especially in contexts
+      where the user graph is not well connected.
+      We achieve state-of-the-art results on all three
+      datasets.
