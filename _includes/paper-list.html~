@@ -6,7 +6,7 @@
       {% if paper.authors %}
         {{ paper.authors | replace: 'With', 'Adam Lopez,' }}. 
       {% else %}
-        Afshin Rahimi.
+        Adam Lopez.
       {% endif %}
       {{ paper.year }}. 
       {{ paper.title }}. 
