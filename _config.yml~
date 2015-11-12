@@ -39,7 +39,7 @@ papers:
     img: naacl2015
     title: Exploiting text and network context for geolocation of social media users
     doc-url: http://www.aclweb.org/anthology/N15-1153
-    authors: Afshin Rahimi, Trevor Cohn and Timothy Baldwin
+    authors: Afshin Rahimi, Duy Vu, Trevor Cohn and Timothy Baldwin
     booktitle: NACL-HLT 2015, Short papers.
     booktitle-url: http://acl2015.org
     venue: Main Conference

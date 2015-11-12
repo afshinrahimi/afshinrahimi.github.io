@@ -41,7 +41,7 @@ papers:
     doc-url: http://www.aclweb.org/anthology/N15-1153
     authors: Afshin Rahimi, Duy Vu, Trevor Cohn and Timothy Baldwin
     booktitle: NACL-HLT 2015, Short papers.
-    booktitle-url: http://acl2015.org
+    booktitle-url: http://naacl.org/naacl-hlt-2015/
     venue: Main Conference
     code: https://github.com/afshinrahimi/textylon/
     abstract: > 
