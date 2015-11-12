@@ -15,7 +15,10 @@ picture: afshin
 
 <h4>Talks</h4>
 <p>
-No talk yet.
+My slides are visual aids for talks, and I make no representation that they 
+stand on their own. People still ask for them, so if you find them 
+useful, you're free to use them as you like.
+I'd appreciate an acknowledgement if you do.
 </p>
 
 {% for talk in site.talks %}
