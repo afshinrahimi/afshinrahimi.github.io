@@ -5,7 +5,12 @@ talks:
     title: Geolocation of Social Media Users
     detail: Poster Presentation @ ACL 2015
     url: "https://drive.google.com/open?id=0B9ZfPKPvp-JieG45QmgtS3pWTTA"
-    img: "upstate-map.png"
+    img: "aclposter"
+  -
+    title: Geolocation of Social Media Users
+    detail: Poster Presentation @ NAACL 2015
+    url: "https://drive.google.com/open?id=0B9ZfPKPvp-JiYnp6Q01wa1FfN3M"
+    img: "naaclposter"
 
 papers:
   - layout: paper
@@ -40,7 +45,7 @@ papers:
     title: Exploiting text and network context for geolocation of social media users
     doc-url: http://www.aclweb.org/anthology/N15-1153
     authors: Afshin Rahimi, Duy Vu, Trevor Cohn and Timothy Baldwin
-    booktitle: NACL-HLT 2015, Short papers.
+    booktitle: NAACL-HLT 2015, Short papers.
     booktitle-url: http://naacl.org/naacl-hlt-2015/
     venue: Main Conference
     code: https://github.com/afshinrahimi/textylon/
