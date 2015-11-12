@@ -37,10 +37,10 @@ papers:
     selected: yes
     year: 2015
     img: naacl2015
-    title: Twitter User Geolocation Using a Unified Text and Network Prediction Model
+    title: Exploiting text and network context for geolocation of social media users
     doc-url: http://www.aclweb.org/anthology/N15-1153
-    authors: Afshin Rahimi, Trevor Cohn and Timothy Baldwin
-    booktitle: ACL 2015, Short papers.
+    authors: Afshin Rahimi, Duy Vu, Trevor Cohn and Timothy Baldwin
+    booktitle: NACL-HLT 2015, Short papers.
     booktitle-url: http://acl2015.org
     venue: Main Conference
     code: https://github.com/afshinrahimi/textylon/
