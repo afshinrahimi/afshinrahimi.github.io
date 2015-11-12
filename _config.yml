@@ -5,12 +5,12 @@ talks:
     title: Geolocation of Social Media Users
     detail: Poster Presentation @ ACL 2015
     url: "https://drive.google.com/open?id=0B9ZfPKPvp-JieG45QmgtS3pWTTA"
-    img: "aclposter"
+    img: "aclposter.jpg"
   -
     title: Geolocation of Social Media Users
     detail: Poster Presentation @ NAACL 2015
     url: "https://drive.google.com/open?id=0B9ZfPKPvp-JiYnp6Q01wa1FfN3M"
-    img: "naaclposter"
+    img: "naaclposter.jpg"
 
 papers:
   - layout: paper
