@@ -24,7 +24,7 @@ papers:
     booktitle: ACL 2015, Short papers.
     booktitle-url: http://acl2015.org
     venue: Main Conference
-    code: https://github.com/afshinrahimi/textylon/
+    code: https://github.com/afshinrahimi/geolocation/
     abstract: > 
       Abstract We propose a label propagation approach to
       geolocation prediction based on Modified Adsorption,
@@ -48,7 +48,7 @@ papers:
     booktitle: NAACL-HLT 2015, Short papers.
     booktitle-url: http://naacl.org/naacl-hlt-2015/
     venue: Main Conference
-    code: https://github.com/afshinrahimi/textylon/
+    code: https://github.com/afshinrahimi/geolocation/
     abstract: > 
       Abstract Research on automatically geolocating social
       media users has conventionally been based on
