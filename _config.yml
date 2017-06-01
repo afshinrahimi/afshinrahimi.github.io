@@ -41,6 +41,31 @@ papers:
   - layout: paper
     paper-type: inproceedings
     selected: yes
+    year: 2016
+    img: acl2016
+    title: pigeo: A Python Geotagging Tool
+    doc-url: http://www.aclweb.org/anthology/P16-4022
+    authors: Afshin Rahimi, Trevor Cohn and Timothy Baldwin
+    booktitle: ACL 2016, Demonstration papers.
+    booktitle-url: http://acl2016.org
+    venue: Main Conference
+    code: https://github.com/afshinrahimi/pigeo
+    abstract: > 
+      We present pigeo, a Python geolocation
+      prediction tool that predicts a location for
+      a given text input or Twitter user. We discuss
+      the design, implementation and application
+      of pigeo, and empirically evaluate
+      it. pigeo is able to geolocate informal
+      text and is a very useful tool for users who
+      require a free and easy-to-use, yet accurate
+      geolocation service based on pre-trained
+      models. Additionally, users can train their
+      own models easily using pigeo’s API.
+      
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
     year: 2015
     img: acl2015
     title: Twitter User Geolocation Using a Unified Text and Network Prediction Model
