@@ -43,7 +43,7 @@ papers:
     selected: yes
     year: 2016
     img: acl2016
-    title: pigeo: A Python Geotagging Tool
+    title: pigeo, A Python Geotagging Tool
     doc-url: http://www.aclweb.org/anthology/P16-4022
     authors: Afshin Rahimi, Trevor Cohn and Timothy Baldwin
     booktitle: ACL 2016, Demonstration papers.
