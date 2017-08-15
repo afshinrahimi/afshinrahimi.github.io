@@ -17,6 +17,34 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2017
+    img: emnlp2017
+    title: Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
+    doc-url: https://drive.google.com/open?id=0B9ZfPKPvp-JickpYa0drZWQxcHc
+    authors: Afshin Rahimi, Timothy Baldwin and Trevor Cohn
+    booktitle: EMNLP 2017.
+    booktitle-url: http://emnlp2017.net
+    venue: Main Conference
+    code: https://github.com/afshinrahimi/geomdn
+    abstract: > 
+      We propose a method for embedding two-
+      dimensional locations in a continuous vec-
+      tor space using a neural network-based
+      model incorporating mixtures of Gaussian
+      distributions, presenting two model vari-
+      ants for text-based geolocation and lexi-
+      cal dialectology. Evaluated over Twitter
+      data, the proposed model outperforms con-
+      ventional regression-based geolocation and
+      provides a better estimate of uncertainty.
+      We also show the effectiveness of the rep-
+      resentation for predicting words from loca-
+      tion in lexical dialectology, and evaluate it
+      using the DARE dataset.
+
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
+    year: 2017
     img: acl2017
     title: A Neural Model for User Geolocation and Lexical Dialectology
     doc-url: https://arxiv.org/pdf/1704.04008.pdf
