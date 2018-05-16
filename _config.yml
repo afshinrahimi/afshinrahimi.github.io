@@ -16,6 +16,30 @@ papers:
   - layout: paper
     paper-type: inproceedings
     selected: yes
+    year: 2018
+    img: acl2018
+    title: Semi-supervised User Geolocation via Graph Convolutional Networks
+    doc-url: https://arxiv.org/abs/1804.08049
+    authors: Afshin Rahimi, Trevor Cohn and Timothy Baldwin
+    booktitle: ACL 2018.
+    booktitle-url: http://acl2018.org
+    venue: Main Conference
+    code: https://github.com/afshinrahimi/geographconv
+    abstract: > 
+      Social media user geolocation is vital to many applications such as event detection.
+      In this paper, we propose GCN, a multiview geolocation model based on Graph Convolutional Networks,
+      that uses both text and network context. We compare GCN to the state-of-the-art, 
+      and to two baselines we propose, and show that our model achieves or is 
+      competitive with the state-of-the-art over three benchmark geolocation datasets 
+      when sufficient supervision is available. 
+      We also evaluate GCN under a minimal supervision scenario, 
+      and show it outperforms baselines. We find that highway network 
+      gates are essential for controlling the amount of useful 
+      neighbourhood expansion in GCN.
+      
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
     year: 2017
     img: emnlp2017
     title: Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
@@ -93,7 +117,7 @@ papers:
       
   - layout: paper
     paper-type: inproceedings
-    selected: yes
+    selected: no
     year: 2015
     img: acl2015
     title: Twitter User Geolocation Using a Unified Text and Network Prediction Model
@@ -117,7 +141,7 @@ papers:
 
   - layout: paper
     paper-type: inproceedings
-    selected: yes
+    selected: no
     year: 2015
     img: naacl2015
     title: Exploiting text and network context for geolocation of social media users
