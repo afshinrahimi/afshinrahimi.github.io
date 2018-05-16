@@ -117,7 +117,7 @@ papers:
       
   - layout: paper
     paper-type: inproceedings
-    selected: no
+    selected: yes
     year: 2015
     img: acl2015
     title: Twitter User Geolocation Using a Unified Text and Network Prediction Model
@@ -141,7 +141,7 @@ papers:
 
   - layout: paper
     paper-type: inproceedings
-    selected: no
+    selected: yes
     year: 2015
     img: naacl2015
     title: Exploiting text and network context for geolocation of social media users
