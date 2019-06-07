@@ -26,22 +26,22 @@ papers:
     venue: Main Conference
     code: https://github.com/afshinrahimi/mmner
     abstract: > 
-	     In cross-lingual transfer, NLP models over one
-	or more source languages are applied to a low-
-	resource target language. While most prior
-	work has used a single source model or a
-	few carefully selected models, here we consider 
-	a “massive” setting with many such mod-
-	els. This setting raises the problem of poor
-	transfer, particularly from distant languages.
-	We propose two techniques for modulating
-	the transfer, suitable for zero-shot or few-shot
-	learning, respectively. Evaluating on named
-	entity recognition, we show that our tech-
-	niques are much more effective than strong
-	baselines, including standard ensembling, and
-	our unsupervised method rivals oracle selec-
-	tion of the single best individual model.
+      In cross-lingual transfer, NLP models over one
+      or more source languages are applied to a low-
+      resource target language. While most prior
+      work has used a single source model or a
+      few carefully selected models, here we consider 
+      a “massive” setting with many such mod-
+      els. This setting raises the problem of poor
+      transfer, particularly from distant languages.
+      We propose two techniques for modulating
+      the transfer, suitable for zero-shot or few-shot
+      learning, respectively. Evaluating on named
+      entity recognition, we show that our tech-
+      niques are much more effective than strong
+      baselines, including standard ensembling, and
+      our unsupervised method rivals oracle selec-
+      tion of the single best individual model.
 
   - layout: paper
     paper-type: inproceedings
