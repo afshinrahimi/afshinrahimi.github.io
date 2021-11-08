@@ -12,7 +12,64 @@ talks:
     url: "https://drive.google.com/open?id=0B9ZfPKPvp-JiYnp6Q01wa1FfN3M"
     img: "naaclposter.jpg"
 
+
+
+
+
+
+
+
+
+
+
 papers:
+
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
+    year: 2019
+    img: emnlp2021
+    title: Fairness-aware Class Imbalanced Learning
+    doc-url: https://arxiv.org/pdf/2109.10444.pdf
+    authors: Shivashankar Subramanian, Afshin Rahimi, Timothy Baldwin, Trevor Cohn, Lea Frermann
+    booktitle: EMNLP 2021.
+    booktitle-url: http://acl2019.org
+    venue: Main Conference
+    code: https://github.com/shivashankarrs/classimb_fairness
+    abstract: > 
+     Class imbalance is a common challenge in many NLP tasks, and has clear connections to bias, in that bias in training data often leads to higher accuracy for majority groups at the expense of minority groups. However there has traditionally been a disconnect between research on class-imbalanced learning and mitigating bias, and only recently have the two been looked at through a common lens. In this work we evaluate long-tail learning methods for tweet sentiment and occupation classification, and extend a margin-loss based approach with methods to enforce fairness. We empirically show through controlled experiments that the proposed approaches help mitigate both class imbalance and demographic biases.
+
+
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
+    year: 2020
+    img: coling2020b
+    title: WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
+    doc-url: https://arxiv.org/pdf/2005.01281.pdf
+    authors: Afshin Rahimi, Timothy Baldwin, Karin Verspoor
+    booktitle: COLING 2020.
+    booktitle-url: https://coling2020.org/
+    venue: Main Conference
+    code: https://github.com/afshinrahimi/wikiumls
+    abstract: > 
+      We present our work on aligning the Unified Medical Language System (UMLS) to Wikipedia, to facilitate manual alignment of the two resources. We propose a cross-lingual neural reranking model to match a UMLS concept with a Wikipedia page, which achieves a recall@1 of 72%, a substantial improvement of 20% over word- and char-level BM25, enabling manual alignment with minimal effort. We release our resources, including ranked Wikipedia pages for 700k UMLS concepts, and WikiUMLS, a dataset for training and evaluation of alignment models between UMLS and Wikipedia. This will provide easier access to Wikipedia for health professionals, patients, and NLP systems, including in multilingual settings.
+      
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
+    year: 2020
+    img: coling2020a
+    title: IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP
+    doc-url: https://arxiv.org/pdf/2011.00677.pdf
+    authors: F Koto, A Rahimi, JH Lau, T Baldwin
+    booktitle: COLING 2020.
+    booktitle-url: https://coling2020.org/
+    venue: Main Conference
+    code: https://indolem.github.io/
+    abstract: > 
+      Although the Indonesian language is spoken by almost 200 million people and the 10th mostspoken language in the world, it is under-represented in NLP research. Previous work on Indonesian has been hampered by a lack of annotated datasets, a sparsity of language resources, and a lack of resource standardization. In this work, we release the INDOLEM dataset comprising seven tasks for the Indonesian language, spanning morpho-syntax, semantics, and discourse. We additionally release INDOBERT, a new pre-trained language model for Indonesian, and evaluate it over INDOLEM, in addition to benchmarking it against existing resources. Our experiments show that INDOBERT achieves state-of-the-art performance over most of the tasks in INDOLEM.
+      
   - layout: paper
     paper-type: inproceedings
     selected: yes
@@ -42,6 +99,7 @@ papers:
       baselines, including standard ensembling, and
       our unsupervised method rivals oracle selec-
       tion of the single best individual model.
+
 
   - layout: paper
     paper-type: inproceedings
