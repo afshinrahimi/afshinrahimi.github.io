@@ -22,7 +22,7 @@ papers:
     doc-url: https://arxiv.org/pdf/2109.10444.pdf
     authors: Shivashankar Subramanian, Afshin Rahimi, Timothy Baldwin, Trevor Cohn, Lea Frermann
     booktitle: EMNLP 2021.
-    booktitle-url: http://acl2019.org
+    booktitle-url: https://2021.emnlp.org/
     venue: Main Conference
     code: https://github.com/shivashankarrs/classimb_fairness
     abstract: > 
