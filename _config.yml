@@ -33,7 +33,7 @@ papers:
     selected: yes
     year: 2020
     img: coling2020b
-    title: WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
+    title: "WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking"
     doc-url: https://arxiv.org/pdf/2005.01281.pdf
     authors: Afshin Rahimi, Timothy Baldwin, Karin Verspoor
     booktitle: COLING 2020.
@@ -48,7 +48,7 @@ papers:
     selected: yes
     year: 2020
     img: coling2020a
-    title: IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP
+    title: "IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP"
     doc-url: https://arxiv.org/pdf/2011.00677.pdf
     authors: F Koto, A Rahimi, JH Lau, T Baldwin
     booktitle: COLING 2020.
